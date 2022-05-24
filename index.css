@@ -1,0 +1,142 @@
+body{
+    background-color: #132631;
+}
+nav ul li a{
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+    margin: 15px;
+    border-radius: 5px;
+    
+}
+nav ul li a:hover{
+    background-color: aqua;
+    color: rgb(241, 145, 19);
+
+}
+nav ul li{
+    list-style: none;
+}
+.container{
+    background-color:#143038;
+    margin:15vh ;
+    border-radius: 10px;
+}
+.get-in-touch{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+    justify-content: flex-end;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.get-in-touch:hover{
+
+    background-color: rgb(12, 12, 12);
+    border-radius: 5px;
+    color: rgb(200, 255, 0);
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    position:relative;
+
+
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: xx-large;
+    color: white;
+}
+p{
+    color: white;
+}
+.content-section{
+    margin: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-team{
+    margin: 20px;
+
+}
+#team-section{
+
+    justify-content: space-between;
+    padding: 20px;
+    display: flex;
+    margin: 5vh;
+   
+
+}
+#team-section p{
+    text-align: center;
+    text-transform: uppercase;
+
+   
+}
+.team-box1 img{
+    width: 300px;
+    height: 200px;
+    object-fit:contain;
+}
+.team-box2 img{
+    width: 300px;
+    height: 200px;
+    object-fit:contain;
+}
+.team-box3 img{
+    width: 300px;
+    height: 200px;
+    object-fit:contain;
+}
+.carousel-item img{ 
+    width: 700px;
+    height: 300px;
+}
+h4{
+    margin-top: 20px;
+}
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+
+  }
+ 
+.projects img{
+    width: 300px;
+    height: 200px;
+    object-fit:contain;
+    margin-top: 20px;
+}
+.projects{
+
+    justify-content: center;
+}
+.project-heading{
+
+    justify-content: center;
+    margin-top: 30px;
+}
